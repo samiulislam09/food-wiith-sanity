@@ -1,0 +1,42 @@
+.our-branches {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 85px;
+    width: 73%;
+    margin: 0 auto;
+}
+.branch-image img{
+    height: 270px;
+    width: 227px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+.branch-image{
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.274);
+    padding: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.branch-detail{
+    margin: 0 auto;
+}
+.branches-title h2{
+    margin: 20px 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 40px;
+    color: #6047ec;
+    margin-top: 40px;
+}
+
+@media all and (max-width:768px){
+    .our-branches{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media all and (max-width:480px){
+    .our-branches{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

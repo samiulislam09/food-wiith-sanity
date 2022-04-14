@@ -1,0 +1,44 @@
+.footer-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #6047ec;
+    color: white;
+}
+
+.footer-content .social-icon{
+    height: 23px;
+    width: 23px;
+    margin: 5px 12px;
+    cursor: pointer;
+}
+
+.copy-text{
+    background-color: #004fa3;
+    color: white;
+    padding: 20px 0;
+}
+.sign-up input{
+    padding: 8px 28px;
+    border: none;
+    outline: none;
+}
+.sign-up button{
+    padding: 8px 10px;
+    border: none;
+    color: white;
+    background: #362b74;
+    font-weight: bold;
+    cursor: pointer;
+}
+.sign-up p{
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+@media all and (max-width:768px){
+    .footer-content{
+        flex-direction: column;
+    }
+}

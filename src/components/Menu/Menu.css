@@ -1,0 +1,45 @@
+.menu{
+    display: flex;
+    justify-content: space-around;
+    background: #6047ec;
+    padding: 20px 0;
+    align-items: center;
+    color: white;
+}
+
+.menu-item{
+    padding: 5px 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.menu-item:hover{
+    color: aqua;
+}
+.banner{
+    height: 600px;
+    background-image: url('https://image.shutterstock.com/image-photo/food-background-banner-website-selection-260nw-1753925045.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner{
+    display: flex;
+    flex-direction: column;
+    color: #002aff;
+    justify-content: center;
+    align-items: center;
+}
+.banner h1{
+    font-size:70px;
+}
+.banner button{
+    padding: 15px 40px;
+    border: none;
+    outline: none;
+    background-color: #002aff;
+    color: white;
+    font-size: 25px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
